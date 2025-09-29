@@ -5,16 +5,14 @@ Ian Guzman
 ## Description
 The project implements a set of number conversion functions in C, which focuses on base and signed number conversions.
 
--oct_to_bin - Converts octal string -> binary string.
--oct_to_hex – Convert octal string → hexadecimal string.
--hex_to_bin - Convert hexadecimal string → binary string.
-
--uint32_to_bin - Function I added that converts a 32-bit unsigned integer into a
+- oct_to_bin - Converts octal string -> binary string.
+- oct_to_hex – Convert octal string → hexadecimal string.
+- hex_to_bin - Convert hexadecimal string → binary string.
+- uint32_to_bin - Function I added that converts a 32-bit unsigned integer into a
 32-character binary string with leading zeros. It is used for the final three functions.
-
--to_sign_magnitude – Represent a signed 32-bit integer in sign-magnitude form.
--to_ones_complement – Represent a signed 32-bit integer in one’s complement form
--to_twos_complement – Represent a signed 32-bit integer in two’s complement form.
+- to_sign_magnitude – Represent a signed 32-bit integer in sign-magnitude form.
+- to_ones_complement – Represent a signed 32-bit integer in one’s complement form
+- to_twos_complement – Represent a signed 32-bit integer in two’s complement form.
 
 The main.c file reads the test cases from the a2_test.txt file and prints out the tests with the output, expected output, and the final summary of how many tests you passed.
 
