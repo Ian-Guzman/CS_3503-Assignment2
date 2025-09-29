@@ -32,10 +32,10 @@ Could also run "./convert > output.txt" to redirect the output into a text file 
 - Improved input validation and test parser.
 
 ## Test Results
-Test 1: oct_to_bin(725) -> Expected: "111010101", Got: "111010101" [PASS]
-Test 12: oct_to_hex(100) -> Expected: "40", Got: "40" [PASS]
-Test 22: hex_to_bin(Ff) -> Expected: "11111111", Got: "11111111" [PASS]
-Test 33: to_sign_magnitude(-1) -> Expected: "10000000000000000000000000000001", Got: "10000000000000000000000000000001" [PASS]
-Test 40: to_ones_complement(-1) -> Expected: "11111111111111111111111111111110", Got: "11111111111111111111111111111110" [PASS]
-Test 48: to_twos_complement(-255) -> Expected: "11111111111111111111111100000001", Got: "11111111111111111111111100000001" [PASS]
-Summary: 51/51 tests passed
+- Test 1: oct_to_bin(725) -> Expected: "111010101", Got: "111010101" [PASS]
+- Test 12: oct_to_hex(100) -> Expected: "40", Got: "40" [PASS]
+- Test 22: hex_to_bin(Ff) -> Expected: "11111111", Got: "11111111" [PASS]
+- Test 33: to_sign_magnitude(-1) -> Expected: "10000000000000000000000000000001", Got: "10000000000000000000000000000001" [PASS]
+- Test 40: to_ones_complement(-1) -> Expected: "11111111111111111111111111111110", Got: "11111111111111111111111111111110" [PASS]
+- Test 48: to_twos_complement(-255) -> Expected: "11111111111111111111111100000001", Got: "11111111111111111111111100000001" [PASS]
+- Summary: 51/51 tests passed
